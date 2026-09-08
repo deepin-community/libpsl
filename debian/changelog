@@ -1,3 +1,9 @@
+libpsl (0.21.2-1.1deepin1) unstable; urgency=medium
+
+  * Revert 64-bit time_t transition (restore libpsl5 package name).
+
+ -- lichenggang <lichenggang@uniontech.com>  Tue, 08 Sep 2026 13:37:17 +0800
+
 libpsl (0.21.2-1.1) unstable; urgency=medium
 
   * Non-maintainer upload.

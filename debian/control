@@ -26,7 +26,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends:
- libpsl5t64 (= ${binary:Version}),
+ libpsl5 (= ${binary:Version}),
  ${misc:Depends},
 Description: Library for Public Suffix List (development headers)
  Libpsl allows checking domains against the Public Suffix List.
@@ -39,10 +39,7 @@ Description: Library for Public Suffix List (development headers)
  This package contains development header files and documentation for
  developers.
 
-Package: libpsl5t64
-Provides: ${t64:Provides}
-Replaces: libpsl5
-Breaks: libpsl5 (<< ${source:Version})
+Package: libpsl5
 Architecture: any
 Depends:
  libidn2-0 (>= 0.16),
